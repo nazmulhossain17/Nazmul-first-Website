@@ -1,3 +1,123 @@
-p {
-    color: brown;
+body {
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-family: 'Gudea', sans-serif;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+.tc {
+    color: darkorange;
+}
+
+.flexible-container {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.half-width {
+    width: 100%;
+    padding-left: 10%;
+    padding-top: 3%;
+}
+
+#linex {
+    padding-left: 2%;
+    border-left: 5px solid;
+    border-image: linear-gradient(tomato, pink);
+    border-image-slice: 1;
+}
+
+.half-width img {
+    width: 80%;
+}
+
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(gray, lightpink);
+    color: oldlace;
+    font-weight: 700;
+    padding: 10px 40px;
+    border-radius: 5px;
+}
+
+.skill {
+    text-align: center;
+}
+
+.as {
+    color: indianred;
+}
+
+.experience-item {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 10px;
+}
+
+.experience-item img {
+    width: 30%;
+}
+
+.mi {
+    color: sienna;
+}
+
+#web-dev-ex {
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+    background-color: lightcyan;
+}
+
+#full-stack-ex {
+    border-image: linear-gradient(purple, yellow);
+    border-image-slice: 1;
+    background-color: lightpink;
+}
+
+#dev-ex {
+    border-image: linear-gradient(purple, yellow);
+    border-image-slice: 1;
+    background-color: lightgoldenrodyellow;
+}
+
+.middle-width {
+    width: 80%;
+    padding-left: 5%;
+    padding-top: 3%;
+}
+
+.middle-width img {
+    width: 85%;
+}
+
+.middle-banner {
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.last {
+    width: 80%;
+    padding-left: 5%;
+    padding-top: 3%;
+}
+
+.last img {
+    width: 60%;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+}
+
+.foter {
+    color: yellow;
+}
+
+.year {
+    color: green;
 }
